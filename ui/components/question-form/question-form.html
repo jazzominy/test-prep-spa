@@ -1,0 +1,30 @@
+<div id="contentPanel" class="panel panel-default">
+    <div class="panel-heading">Content</div>
+    <div class="panel-body c-panel-body">
+        <form name="question-form" class="form-horizontal question-form" role="form" novalidate>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">Question</label>
+                <div class="col-sm-9">
+                    <p class="form-control-static" ng-show="!$ctrl.edit" ng-click="$ctrl.toggleQuestionEdit(true)">{{$ctrl.question.value}}</p>
+                    <textarea id="question" name="question" class="form-control" ng-show="$ctrl.edit" ng-blur="$ctrl.toggleQuestionEdit(false)" ng-model="$ctrl.question.value"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">Multiple answers?</label>
+                <div class="col-sm-9">
+                    <div class="checkbox checkbox-inline">
+                        <input type="checkbox" ng-model="$ctrl.question.multipleAnswers"/>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label">Answers</label>
+                <div class="col-sm-9">
+                    <ul class="list-group">
+                        <li class="list-group-item" ng-repeat="item in $ctrl.question.answers">{{item}}</li>
+                    </ul>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

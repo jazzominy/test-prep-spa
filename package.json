@@ -1,0 +1,26 @@
+{
+  "name": "test-prep",
+  "version": "1.0.0",
+  "description": "A sample single page app to get your hands dirty with Angular 1.5, gulp and creating simple api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp inject:min",
+    "start": "npm run build && node server.js"
+  },
+  "author": "Jasmine Hirpara",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "client-sessions": "^0.7.0",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-angular-filesort": "^1.1.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-inject": "^4.1.0",
+    "gulp-uglify": "^2.0.0",
+    "main-bower-files": "^2.13.1"
+  }
+}

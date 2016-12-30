@@ -1,0 +1,39 @@
+body{
+    background-color: #606060;
+}
+
+#loginPanel,#registerPanel{
+	margin-top: 100px;
+    overflow-y: hidden;
+}
+
+button[type="submit"]{
+	width: 100%;
+}
+
+#errMsg{
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.q-panel-body{
+    height: 500px;
+    overflow: auto;
+}
+
+div[class*="q-panel-body"] li:hover {
+    cursor: pointer;
+}
+
+.c-panel-body{
+    height: 500px;
+    overflow: auto;
+}
+
+.question-form {
+    width: 100%;
+}

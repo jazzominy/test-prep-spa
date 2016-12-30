@@ -1,0 +1,22 @@
+{
+  "name": "test-prep",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Jasmine Hirpara"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.5.8",
+    "angular-ui-router": "^0.3.1",
+    "bootstrap": "^3.3.7"
+  }
+}

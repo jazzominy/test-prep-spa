@@ -1,0 +1,32 @@
+[
+    {
+        "value":"Question 1",
+        "multipleAnswers": false,
+        "answers": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ]
+    },
+    {
+        "value":"Question 2",
+        "multipleAnswers": true,
+        "answers": [
+            "E",
+            "F",
+            "G",
+            "H"
+        ]
+    },
+    {
+        "value":"Question 3",
+        "multipleAnswers": false,
+        "answers": [
+            "I",
+            "J",
+            "K",
+            "L"
+        ]
+    }
+]

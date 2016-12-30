@@ -1,0 +1,9 @@
+<div id="sidePanel" class="panel panel-default">
+    <div class="panel-heading">Questions</div>
+    <div class="panel-body q-panel-body">
+        <ul class="list-group">
+            <li class="list-group-item" ng-repeat="item in $ctrl.questions"
+                ng-click="$ctrl.onSelect({item:item})">{{item.value}}</li>
+        </ul>
+    </div>
+</div>
