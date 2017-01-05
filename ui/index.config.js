@@ -18,7 +18,7 @@
         });
     }]);
 
-    //On initialization, add the listener for restricting the access to main state directly from the url(localhost:5000/#/main)
+    //On initialization, add the listener for restrict the access to main state directly from the url(localhost:5000/#/main)
     app.run(["$rootScope","AuthService","$state",function($rootScope,AuthService,$state){
         $rootScope.$on('$stateChangeStart',
                        function(event, toState, toParams, fromState, fromParams, options){
